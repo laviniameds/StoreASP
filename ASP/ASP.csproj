@@ -66,7 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cliente\DeletarCliente.aspx" />
+    <Content Include="Cliente\EditarCliente.aspx" />
+    <Content Include="Cliente\VerClientes.aspx" />
+    <Content Include="Fornecedor\DeletarFornecedor.aspx" />
+    <Content Include="Fornecedor\EditarFornecedor.aspx" />
+    <Content Include="Fornecedor\InserirFornecedor.aspx" />
+    <Content Include="Fornecedor\VerFornecedores.aspx" />
     <Content Include="packages.config" />
+    <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,11 +83,108 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cliente\InserirCliente.aspx" />
+    <Content Include="Produto\DeletarProduto.aspx" />
+    <Content Include="Produto\EditarProduto.aspx" />
+    <Content Include="Produto\InserirProduto.aspx" />
+    <Content Include="Produto\VerProdutos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente\DeletarCliente.aspx.cs">
+      <DependentUpon>DeletarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\DeletarCliente.aspx.designer.cs">
+      <DependentUpon>DeletarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\EditarCliente.aspx.cs">
+      <DependentUpon>EditarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\EditarCliente.aspx.designer.cs">
+      <DependentUpon>EditarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\InserirCliente.aspx.cs">
+      <DependentUpon>InserirCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\InserirCliente.aspx.designer.cs">
+      <DependentUpon>InserirCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\VerClientes.aspx.cs">
+      <DependentUpon>VerClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cliente\VerClientes.aspx.designer.cs">
+      <DependentUpon>VerClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fornecedor\DeletarFornecedor.aspx.cs">
+      <DependentUpon>DeletarFornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fornecedor\DeletarFornecedor.aspx.designer.cs">
+      <DependentUpon>DeletarFornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fornecedor\EditarFornecedor.aspx.cs">
+      <DependentUpon>EditarFornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fornecedor\EditarFornecedor.aspx.designer.cs">
+      <DependentUpon>EditarFornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fornecedor\InserirFornecedor.aspx.cs">
+      <DependentUpon>InserirFornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fornecedor\InserirFornecedor.aspx.designer.cs">
+      <DependentUpon>InserirFornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fornecedor\VerFornecedores.aspx.cs">
+      <DependentUpon>VerFornecedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fornecedor\VerFornecedores.aspx.designer.cs">
+      <DependentUpon>VerFornecedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\DeletarProduto.aspx.cs">
+      <DependentUpon>DeletarProduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Produto\DeletarProduto.aspx.designer.cs">
+      <DependentUpon>DeletarProduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\EditarProduto.aspx.cs">
+      <DependentUpon>EditarProduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Produto\EditarProduto.aspx.designer.cs">
+      <DependentUpon>EditarProduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\InserirProduto.aspx.cs">
+      <DependentUpon>InserirProduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Produto\InserirProduto.aspx.designer.cs">
+      <DependentUpon>InserirProduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Produto\VerProdutos.aspx.cs">
+      <DependentUpon>VerProdutos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Produto\VerProdutos.aspx.designer.cs">
+      <DependentUpon>VerProdutos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
