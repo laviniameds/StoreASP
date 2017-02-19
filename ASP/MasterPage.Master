@@ -22,14 +22,10 @@
                             <DynamicMenuStyle BackColor="#FFFBD6" />
                             <DynamicSelectedStyle BackColor="#FFCC66" />
                 <Items>
-                    <asp:MenuItem Text="Cliente" Value="Cliente">
-                        <asp:MenuItem NavigateUrl="~/Cliente/VerClientes.aspx" Text="Ver" Value="Ver"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Cliente/InserirCliente.aspx" Text="Inserir" Value="Inserir"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Cliente/EditarCliente.aspx" Text="Editar" Value="Editar"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Cliente/DeletarCliente.aspx" Text="Deletar" Value="Deletar"></asp:MenuItem>
+                    <asp:MenuItem Text="Cliente" Value="Cliente" NavigateUrl="~/Cliente/VerClientes.aspx">
                     </asp:MenuItem>
-                    <asp:MenuItem Text="Produto" Value="Produto"></asp:MenuItem>
-                    <asp:MenuItem Text="Fornecedor" Value="Fornecedor"></asp:MenuItem>
+                    <asp:MenuItem Text="Produto" Value="Produto" NavigateUrl="~/Produto/VerProdutos.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Fornecedor" Value="Fornecedor" NavigateUrl="~/Fornecedor/VerFornecedores.aspx"></asp:MenuItem>
                 </Items>
                                         <StaticHoverStyle BackColor="#990000" ForeColor="White" />
                             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
