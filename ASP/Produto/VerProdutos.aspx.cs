@@ -13,5 +13,17 @@ namespace ASP.Produto
         {
 
         }
+
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "Editar")
+            {
+                string codigo;
+                int index = Convert.ToInt32(e.CommandArgument);
+                codigo = GridView1.Rows[index].Cells[0].Text;
+                Session["Id"] = codigo;
+                Response.Redirect("~\\Cliente/EditarFornecedor.aspx");
+            }
+        }
     }
 }
