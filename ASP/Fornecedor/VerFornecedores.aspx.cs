@@ -22,7 +22,7 @@ namespace ASP.Fornecedor
                 int index = Convert.ToInt32(e.CommandArgument);
                 codigo = GridView1.Rows[index].Cells[0].Text;
                 Session["Id"] = codigo;
-                Response.Redirect("~\\Cliente/EditarFornecedor.aspx");
+                Response.Redirect("~\\Fornecedor/EditarFornecedor.aspx");
             }
         }
     }

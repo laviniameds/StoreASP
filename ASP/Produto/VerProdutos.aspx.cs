@@ -22,7 +22,7 @@ namespace ASP.Produto
                 int index = Convert.ToInt32(e.CommandArgument);
                 codigo = GridView1.Rows[index].Cells[0].Text;
                 Session["Id"] = codigo;
-                Response.Redirect("~\\Cliente/EditarProduto.aspx");
+                Response.Redirect("~\\Produto/EditarProduto.aspx");
             }
         }
     }
