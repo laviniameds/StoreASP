@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <asp:Label ID="Label1" runat="server" Text="Editar Fornecedor"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="Editar Produto"></asp:Label>
     <br />
     <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="155px" AutoGenerateRows="False" DataSourceID="ObjectDataSource1">
         <Fields>

@@ -70,6 +70,7 @@
     <Content Include="Cliente\VerClientes.aspx" />
     <Content Include="Fornecedor\EditarFornecedor.aspx" />
     <Content Include="Fornecedor\VerFornecedores.aspx" />
+    <Content Include="Inicio.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
@@ -115,6 +116,13 @@
     </Compile>
     <Compile Include="Fornecedor\VerFornecedores.aspx.designer.cs">
       <DependentUpon>VerFornecedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
