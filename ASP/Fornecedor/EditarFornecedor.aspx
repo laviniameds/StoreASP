@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label ID="Label1" runat="server" Text="Editar Fornecedor"></asp:Label>
     <br />
-    <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="155px" AutoGenerateRows="False" DataSourceID="ObjectDataSource1">
+    <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="155px" AutoGenerateRows="False" DataSourceID="ObjectDataSource1" DataKeyNames="Id">
         <Fields>
             <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
             <asp:BoundField DataField="Descricao" HeaderText="Descricao" SortExpression="Descricao" />
