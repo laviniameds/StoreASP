@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Aplicação em ASP.NET"></asp:Label>
-
+    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Sprint 2 - Aplicação em ASP.NET"></asp:Label>
+    <br />
+    <asp:Label ID="Label2" runat="server" Font-Size="Large" Text="Grupo: Helena Nunes e Lavinia Medeiros"></asp:Label>
 </asp:Content>

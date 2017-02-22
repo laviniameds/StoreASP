@@ -3,7 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <asp:Label ID="Label1" runat="server" Text="Editar Cliente"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Editar Cliente"></asp:Label>
+    <br />
     <br />
     <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="155px" AutoGenerateRows="False" DataSourceID="ObjectDataSource1" DataKeyNames="Id" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />

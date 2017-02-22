@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="Ver Clientes"></asp:Label>
+    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Ver Clientes"></asp:Label>
+    <br />
     <br />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" OnRowCommand="GridView1_RowCommand" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
@@ -18,7 +19,7 @@
             <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
             <asp:ButtonField CommandName="Editar" Text="Editar" />
         </Columns>
-        <EditRowStyle BackColor="#999999" />
+        <EditRowStyle BackColor="#999999"/>
         <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
         <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
         <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
